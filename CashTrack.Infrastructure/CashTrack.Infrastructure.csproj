@@ -10,4 +10,10 @@
     <ProjectReference Include="..\CashTrack.Domain\CashTrack.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Configurations\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>
