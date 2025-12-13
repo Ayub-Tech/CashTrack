@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F035CED1-F7B1-4FDF-B86D-E141C30742BA}|CashTrack.Infrastructure\\CashTrack.Infrastructure.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F035CED1-F7B1-4FDF-B86D-E141C30742BA}|CashTrack.Infrastructure\\CashTrack.Infrastructure.csproj|solutionrelative:cashtrack.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -66,6 +70,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "CashTrack.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "CashTrack.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:38:32.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Class1.cs",
               "RelativeDocumentMoniker": "CashTrack.Application\\Class1.cs",
               "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Class1.cs",
@@ -77,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Domain\\Class1.cs",
               "RelativeDocumentMoniker": "CashTrack.Domain\\Class1.cs",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
