@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashTrack.Domain", "CashTra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashTrack.Application", "CashTrack.Application\CashTrack.Application.csproj", "{48833C10-3CDC-4F17-A0A4-E757C2145239}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashTrack.Infrastructure", "CashTrack.Infrastructure\CashTrack.Infrastructure.csproj", "{F035CED1-F7B1-4FDF-B86D-E141C30742BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{48833C10-3CDC-4F17-A0A4-E757C2145239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48833C10-3CDC-4F17-A0A4-E757C2145239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48833C10-3CDC-4F17-A0A4-E757C2145239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F035CED1-F7B1-4FDF-B86D-E141C30742BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F035CED1-F7B1-4FDF-B86D-E141C30742BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F035CED1-F7B1-4FDF-B86D-E141C30742BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F035CED1-F7B1-4FDF-B86D-E141C30742BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

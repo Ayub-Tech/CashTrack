@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{524989FF-7BD3-4D32-84CD-A704311DC361}|CashTrack.Domain\\CashTrack.Domain.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{524989FF-7BD3-4D32-84CD-A704311DC361}|CashTrack.Domain\\CashTrack.Domain.csproj|solutionrelative:cashtrack.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
@@ -57,6 +65,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "CashTrack.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Class1.cs",
+              "RelativeToolTip": "CashTrack.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:36:43.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "CashTrack.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Domain\\Class1.cs",
+              "RelativeToolTip": "CashTrack.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T12:34:13.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
