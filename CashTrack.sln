@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashTrack.Api", "CashTrack.Api\CashTrack.Api.csproj", "{D7EADB6A-C478-4BC7-80DE-1650C639393C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashTrack.Domain", "CashTrack.Domain\CashTrack.Domain.csproj", "{524989FF-7BD3-4D32-84CD-A704311DC361}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{D7EADB6A-C478-4BC7-80DE-1650C639393C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7EADB6A-C478-4BC7-80DE-1650C639393C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7EADB6A-C478-4BC7-80DE-1650C639393C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{524989FF-7BD3-4D32-84CD-A704311DC361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524989FF-7BD3-4D32-84CD-A704311DC361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524989FF-7BD3-4D32-84CD-A704311DC361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524989FF-7BD3-4D32-84CD-A704311DC361}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
