@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace CashTrack.Application.Interfaces
 {
-    internal class IUserService
+    // Interface for user service
+    public interface IUserService
     {
+        // Will return all users later
+        void GetAll();
+
+        // Will create a new user later
+        void Create();
     }
 }
