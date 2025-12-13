@@ -11,11 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-    <Folder Include="Middlewares\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CashTrack.Application\CashTrack.Application.csproj" />
     <ProjectReference Include="..\CashTrack.Infrastructure\CashTrack.Infrastructure.csproj" />
   </ItemGroup>
