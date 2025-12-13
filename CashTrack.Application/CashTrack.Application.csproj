@@ -10,8 +10,4 @@
     <ProjectReference Include="..\CashTrack.Domain\CashTrack.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Validators\" />
-  </ItemGroup>
-
 </Project>
