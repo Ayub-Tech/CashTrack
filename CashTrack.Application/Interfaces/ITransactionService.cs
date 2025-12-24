@@ -1,18 +1,24 @@
-﻿using System;
+﻿using CashTrack.Application.DTOs;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CashTrack.Application.Interfaces
 {
-    // Interface for transaction service
+    // Interface for transaction-related business logic
     public interface ITransactionService
     {
-        // Will return all transactions later
-        void GetAll();
+        // Returns all transactions
+        List<TransactionDto> GetAll();
 
-        // Will create a new transaction later
-        void Create();
+        // Returns a single transaction by id
+        TransactionDto GetById(int id);
+
+        // Creates a new transaction
+        void Create(TransactionDto dto);
+
+        // Updates an existing transaction
+        bool Update(int id, TransactionDto dto);
+
+        // Deletes a transaction
+        bool Delete(int id);
     }
 }

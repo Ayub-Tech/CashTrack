@@ -7,100 +7,32 @@
       "RelativeMoniker": "D:0:0:{D7EADB6A-C478-4BC7-80DE-1650C639393C}|CashTrack.Api\\CashTrack.Api.csproj|solutionrelative:cashtrack.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7EADB6A-C478-4BC7-80DE-1650C639393C}|CashTrack.Api\\CashTrack.Api.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7EADB6A-C478-4BC7-80DE-1650C639393C}|CashTrack.Api\\CashTrack.Api.csproj|solutionrelative:cashtrack.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7EADB6A-C478-4BC7-80DE-1650C639393C}|CashTrack.Api\\CashTrack.Api.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7EADB6A-C478-4BC7-80DE-1650C639393C}|CashTrack.Api\\CashTrack.Api.csproj|solutionrelative:cashtrack.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7EADB6A-C478-4BC7-80DE-1650C639393C}|CashTrack.Api\\CashTrack.Api.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7EADB6A-C478-4BC7-80DE-1650C639393C}|CashTrack.Api\\CashTrack.Api.csproj|solutionrelative:cashtrack.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7EADB6A-C478-4BC7-80DE-1650C639393C}|CashTrack.Api\\CashTrack.Api.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D7EADB6A-C478-4BC7-80DE-1650C639393C}|CashTrack.Api\\CashTrack.Api.csproj|solutionrelative:cashtrack.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F035CED1-F7B1-4FDF-B86D-E141C30742BA}|CashTrack.Infrastructure\\CashTrack.Infrastructure.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F035CED1-F7B1-4FDF-B86D-E141C30742BA}|CashTrack.Infrastructure\\CashTrack.Infrastructure.csproj|solutionrelative:cashtrack.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F035CED1-F7B1-4FDF-B86D-E141C30742BA}|CashTrack.Infrastructure\\CashTrack.Infrastructure.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.infrastructure\\repositories\\categoryrepositroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F035CED1-F7B1-4FDF-B86D-E141C30742BA}|CashTrack.Infrastructure\\CashTrack.Infrastructure.csproj|solutionrelative:cashtrack.infrastructure\\repositories\\categoryrepositroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F035CED1-F7B1-4FDF-B86D-E141C30742BA}|CashTrack.Infrastructure\\CashTrack.Infrastructure.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.infrastructure\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F035CED1-F7B1-4FDF-B86D-E141C30742BA}|CashTrack.Infrastructure\\CashTrack.Infrastructure.csproj|solutionrelative:cashtrack.infrastructure\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F035CED1-F7B1-4FDF-B86D-E141C30742BA}|CashTrack.Infrastructure\\CashTrack.Infrastructure.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.infrastructure\\data\\cashtrackdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F035CED1-F7B1-4FDF-B86D-E141C30742BA}|CashTrack.Infrastructure\\CashTrack.Infrastructure.csproj|solutionrelative:cashtrack.infrastructure\\data\\cashtrackdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\validators\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\validators\\categoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\validators\\categoryvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\validators\\transactionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\validators\\transactionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\interfaces\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\interfaces\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\dtos\\transactionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\dtos\\transactionsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{524989FF-7BD3-4D32-84CD-A704311DC361}|CashTrack.Domain\\CashTrack.Domain.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.domain\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{524989FF-7BD3-4D32-84CD-A704311DC361}|CashTrack.Domain\\CashTrack.Domain.csproj|solutionrelative:cashtrack.domain\\entities\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{524989FF-7BD3-4D32-84CD-A704311DC361}|CashTrack.Domain\\CashTrack.Domain.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{524989FF-7BD3-4D32-84CD-A704311DC361}|CashTrack.Domain\\CashTrack.Domain.csproj|solutionrelative:cashtrack.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48833C10-3CDC-4F17-A0A4-E757C2145239}|CashTrack.Application\\CashTrack.Application.csproj|solutionrelative:cashtrack.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{524989FF-7BD3-4D32-84CD-A704311DC361}|CashTrack.Domain\\CashTrack.Domain.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{524989FF-7BD3-4D32-84CD-A704311DC361}|CashTrack.Domain\\CashTrack.Domain.csproj|solutionrelative:cashtrack.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F035CED1-F7B1-4FDF-B86D-E141C30742BA}|CashTrack.Infrastructure\\CashTrack.Infrastructure.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.infrastructure\\repositories\\categoryrepositroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F035CED1-F7B1-4FDF-B86D-E141C30742BA}|CashTrack.Infrastructure\\CashTrack.Infrastructure.csproj|solutionrelative:cashtrack.infrastructure\\repositories\\categoryrepositroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|Solution Items{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{D7EADB6A-C478-4BC7-80DE-1650C639393C}|CashTrack.Api\\CashTrack.Api.csproj|c:\\users\\amin hmesheh\\source\\repos\\cashtrack\\cashtrack.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7EADB6A-C478-4BC7-80DE-1650C639393C}|CashTrack.Api\\CashTrack.Api.csproj|solutionrelative:cashtrack.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -140,8 +72,12 @@
         },
         {
           "DockedHeight": 36,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -151,81 +87,72 @@
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Program.cs",
-              "RelativeDocumentMoniker": "CashTrack.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Program.cs*",
-              "RelativeToolTip": "CashTrack.Api\\Program.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAcwCQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:17:59.155Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExceptionMiddleware.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeDocumentMoniker": "CashTrack.Api\\Middlewares\\ExceptionMiddleware.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Middlewares\\ExceptionMiddleware.cs",
-              "RelativeToolTip": "CashTrack.Api\\Middlewares\\ExceptionMiddleware.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwCEAAAABAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\DTOS\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "CashTrack.Application\\DTOS\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\DTOS\\CategoryDto.cs",
+              "RelativeToolTip": "CashTrack.Application\\DTOS\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:14:25.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "CashTrack.Api\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "CashTrack.Api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:13:51.054Z",
+              "WhenOpened": "2025-12-24T12:52:32.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "CashTrack.Api\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "CashTrack.Api\\Controllers\\CategoryController.cs",
+              "Title": "TransactionsDto.cs",
+              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\DTOS\\TransactionsDto.cs",
+              "RelativeDocumentMoniker": "CashTrack.Application\\DTOS\\TransactionsDto.cs",
+              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\DTOS\\TransactionsDto.cs",
+              "RelativeToolTip": "CashTrack.Application\\DTOS\\TransactionsDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:13:40.015Z",
+              "WhenOpened": "2025-12-24T12:52:31.897Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TransactionController.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Controllers\\TransactionController.cs",
-              "RelativeDocumentMoniker": "CashTrack.Api\\Controllers\\TransactionController.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Controllers\\TransactionController.cs",
-              "RelativeToolTip": "CashTrack.Api\\Controllers\\TransactionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "CashTrack.Application\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "CashTrack.Application\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:13:25.112Z",
+              "WhenOpened": "2025-12-24T12:46:53.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "CashTrack.Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "CashTrack.Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "CashTrack.Application\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "CashTrack.Application\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:12:10.286Z",
+              "WhenOpened": "2025-12-24T12:40:47.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Program.cs",
+              "RelativeDocumentMoniker": "CashTrack.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Program.cs",
+              "RelativeToolTip": "CashTrack.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-13T13:17:59.155Z",
               "EditorCaption": ""
             },
             {
@@ -236,248 +163,36 @@
               "RelativeDocumentMoniker": "CashTrack.Infrastructure\\Repositories\\CategoryRepositroy.cs",
               "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Infrastructure\\Repositories\\CategoryRepositroy.cs",
               "RelativeToolTip": "CashTrack.Infrastructure\\Repositories\\CategoryRepositroy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:11:55.83Z",
+              "WhenOpened": "2025-12-15T12:36:26.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TransactionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Infrastructure\\Repositories\\TransactionRepository.cs",
-              "RelativeDocumentMoniker": "CashTrack.Infrastructure\\Repositories\\TransactionRepository.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Infrastructure\\Repositories\\TransactionRepository.cs",
-              "RelativeToolTip": "CashTrack.Infrastructure\\Repositories\\TransactionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:11:38.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CashTrackDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Infrastructure\\Data\\CashTrackDbContext.cs",
-              "RelativeDocumentMoniker": "CashTrack.Infrastructure\\Data\\CashTrackDbContext.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Infrastructure\\Data\\CashTrackDbContext.cs",
-              "RelativeToolTip": "CashTrack.Infrastructure\\Data\\CashTrackDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:11:02.456Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Validators\\UserValidator.cs",
-              "RelativeDocumentMoniker": "CashTrack.Application\\Validators\\UserValidator.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Validators\\UserValidator.cs",
-              "RelativeToolTip": "CashTrack.Application\\Validators\\UserValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:09:48.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CategoryValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Validators\\CategoryValidator.cs",
-              "RelativeDocumentMoniker": "CashTrack.Application\\Validators\\CategoryValidator.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Validators\\CategoryValidator.cs",
-              "RelativeToolTip": "CashTrack.Application\\Validators\\CategoryValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:09:38.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TransactionValidator.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Validators\\TransactionValidator.cs",
-              "RelativeDocumentMoniker": "CashTrack.Application\\Validators\\TransactionValidator.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Validators\\TransactionValidator.cs",
-              "RelativeToolTip": "CashTrack.Application\\Validators\\TransactionValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:09:16.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "CashTrack.Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "CashTrack.Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:08:15.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ICategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Interfaces\\ICategoryService.cs",
-              "RelativeDocumentMoniker": "CashTrack.Application\\Interfaces\\ICategoryService.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Interfaces\\ICategoryService.cs",
-              "RelativeToolTip": "CashTrack.Application\\Interfaces\\ICategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:08:00.754Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ITransactionService.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Interfaces\\ITransactionService.cs",
-              "RelativeDocumentMoniker": "CashTrack.Application\\Interfaces\\ITransactionService.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Interfaces\\ITransactionService.cs",
-              "RelativeToolTip": "CashTrack.Application\\Interfaces\\ITransactionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:07:25.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "CashTrack.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "CashTrack.Application\\Services\\UserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:06:06.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 5,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "CashTrack.Application\\Services\\CategoryService.cs",
               "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Services\\CategoryService.cs",
               "RelativeToolTip": "CashTrack.Application\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:05:50.058Z",
+              "WhenOpened": "2025-12-15T11:59:58.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TransactionService.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Services\\TransactionService.cs",
-              "RelativeDocumentMoniker": "CashTrack.Application\\Services\\TransactionService.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\Services\\TransactionService.cs",
-              "RelativeToolTip": "CashTrack.Application\\Services\\TransactionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "CashTrack.Api\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Api\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "CashTrack.Api\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA6wB0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:05:26.865Z",
+              "WhenOpened": "2025-12-15T11:59:05.044Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\DTOS\\UserDto.cs",
-              "RelativeDocumentMoniker": "CashTrack.Application\\DTOS\\UserDto.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\DTOS\\UserDto.cs",
-              "RelativeToolTip": "CashTrack.Application\\DTOS\\UserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:04:12.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\DTOS\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "CashTrack.Application\\DTOS\\CategoryDto.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\DTOS\\CategoryDto.cs",
-              "RelativeToolTip": "CashTrack.Application\\DTOS\\CategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:03:11.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "TransactionsDto.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\DTOS\\TransactionsDto.cs",
-              "RelativeDocumentMoniker": "CashTrack.Application\\DTOS\\TransactionsDto.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Application\\DTOS\\TransactionsDto.cs",
-              "RelativeToolTip": "CashTrack.Application\\DTOS\\TransactionsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T13:01:52.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Transaction.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Domain\\Entities\\Transaction.cs",
-              "RelativeDocumentMoniker": "CashTrack.Domain\\Entities\\Transaction.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Domain\\Entities\\Transaction.cs",
-              "RelativeToolTip": "CashTrack.Domain\\Entities\\Transaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T12:59:24.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "CashTrack.Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "CashTrack.Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T12:49:19.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "CashTrack.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\CashTrack.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "CashTrack.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T12:44:24.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\Amin Hmesheh\\source\\repos\\CashTrack\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-13T11:52:49.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

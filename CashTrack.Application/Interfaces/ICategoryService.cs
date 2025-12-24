@@ -1,18 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CashTrack.Application.DTOs;
 
 namespace CashTrack.Application.Interfaces
 {
-    // Interface for category service
     public interface ICategoryService
     {
-        // Will return all categories later
-        void GetAll();
-
-        // Will create a new category later
-        void Create();
+        Task<IEnumerable<CategoryDto>> GetAllAsync();
+        Task<CategoryDto?> GetByIdAsync(int id);
     }
 }

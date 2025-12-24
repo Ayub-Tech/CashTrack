@@ -1,25 +1,41 @@
-﻿using CashTrack.Application.Interfaces;
+﻿using CashTrack.Application.DTOs;
+using CashTrack.Application.Interfaces;
+using CashTrack.Domain.Entities;
 
 namespace CashTrack.Application.Services
 {
-    // Service responsible for category-related logic
     public class CategoryService : ICategoryService
     {
-        // Constructor (will be used later for dependencies)
-        public CategoryService()
+        private readonly ICategoryRepository _repository;
+
+        public CategoryService(ICategoryRepository repository)
         {
+            _repository = repository;
         }
 
-        // This method will later return all categories
-        public void GetAll()
+        public async Task<IEnumerable<CategoryDto>> GetAllAsync()
         {
-            // Logic will be added later
+            var categories = await _repository.GetAllAsync();
+
+            return categories.Select(c => new CategoryDto
+            {
+                Id = c.Id,
+                Name = c.Name
+            });
         }
 
-        // This method will later create a new category
-        public void Create()
+        public async Task<CategoryDto?> GetByIdAsync(int id)
         {
-            // Logic will be added later
+            var category = await _repository.GetByIdAsync(id);
+
+            if (category == null)
+                return null;
+
+            return new CategoryDto
+            {
+                Id = category.Id,
+                Name = category.Name
+            };
         }
     }
 }
