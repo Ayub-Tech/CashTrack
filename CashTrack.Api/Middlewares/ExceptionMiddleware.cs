@@ -1,34 +1,47 @@
 ﻿using System.Net;
+using System.Text.Json;
 
 namespace CashTrack.Api.Middlewares
 {
-    // This middleware handles unexpected errors globally
+    // Catches all unhandled exceptions and returns consistent error responses
     public class ExceptionMiddleware
     {
         private readonly RequestDelegate _next;
+        private readonly ILogger<ExceptionMiddleware> _logger;
 
-        // Constructor that gets the next middleware in the pipeline
-        public ExceptionMiddleware(RequestDelegate next)
+        public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger)
         {
             _next = next;
+            _logger = logger;
         }
 
-        // This method is called for every HTTP request
         public async Task InvokeAsync(HttpContext context)
         {
             try
             {
-                // Continue to the next middleware or controller
                 await _next(context);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                // If an error occurs, return status code 500
-                context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-
-                // Return a simple error message to the client
-                await context.Response.WriteAsync("Something went wrong.");
+                _logger.LogError(ex, "An unhandled exception occurred");
+                await HandleExceptionAsync(context, ex);
             }
+        }
+
+        private static Task HandleExceptionAsync(HttpContext context, Exception exception)
+        {
+            context.Response.ContentType = "application/json";
+            context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+
+            var response = new
+            {
+                statusCode = context.Response.StatusCode,
+                message = "An error occurred while processing your request",
+                detailed = exception.Message
+            };
+
+            var jsonResponse = JsonSerializer.Serialize(response);
+            return context.Response.WriteAsync(jsonResponse);
         }
     }
 }

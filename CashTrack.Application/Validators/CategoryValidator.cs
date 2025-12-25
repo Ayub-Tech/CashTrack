@@ -1,12 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CashTrack.Application.DTOs;
+using FluentValidation;
 
 namespace CashTrack.Application.Validators
 {
-    internal class CategoryValidator
+    // Validates input when creating or updating categories
+    public class CategoryValidator : AbstractValidator<CreateCategoryDto>
     {
+        public CategoryValidator()
+        {
+            // Name is required
+            RuleFor(x => x.Name)
+                .NotEmpty()
+                .WithMessage("Category name is required");
+
+            // Name must be between 2 and 100 characters
+            RuleFor(x => x.Name)
+                .Length(2, 100)
+                .WithMessage("Category name must be between 2 and 100 characters");
+        }
     }
 }
