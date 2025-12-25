@@ -96,3 +96,6 @@ CashTrack/
    ```bash
    git clone https://github.com/Ayub-Tech/CashTrack.git
    cd CashTrack
+---
+
+✅ CI/CD Status: Automated builds and tests enabled
