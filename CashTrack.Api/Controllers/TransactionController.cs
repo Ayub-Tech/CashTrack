@@ -10,55 +10,58 @@ namespace CashTrack.Api.Controllers
     {
         private readonly ITransactionService _transactionService;
 
-        // Constructor injection
         public TransactionController(ITransactionService transactionService)
         {
             _transactionService = transactionService;
         }
 
-        // GET: api/Transaction
+        // GET: api/transaction - Returns all transactions
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<IActionResult> GetAll()
         {
-            return Ok(_transactionService.GetAll());
+            var transactions = await _transactionService.GetAllAsync();
+            return Ok(transactions);
         }
 
-        // GET: api/Transaction/{id}
+        // GET: api/transaction/5 - Returns single transaction by ID
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            var transaction = _transactionService.GetById(id);
+            var transaction = await _transactionService.GetByIdAsync(id);
+
             if (transaction == null)
                 return NotFound();
 
             return Ok(transaction);
         }
 
-        // POST: api/Transaction
+        // POST: api/transaction - Creates new transaction
         [HttpPost]
-        public IActionResult Create([FromBody] TransactionDto dto)
+        public async Task<IActionResult> Create([FromBody] CreateTransactionDto createDto)
         {
-            _transactionService.Create(dto);
-            return Ok();
+            var transaction = await _transactionService.CreateAsync(createDto);
+            return CreatedAtAction(nameof(GetById), new { id = transaction.Id }, transaction);
         }
 
-        // PUT: api/Transaction/{id}
+        // PUT: api/transaction/5 - Updates existing transaction
         [HttpPut("{id}")]
-        public IActionResult Update(int id, [FromBody] TransactionDto dto)
+        public async Task<IActionResult> Update(int id, [FromBody] CreateTransactionDto updateDto)
         {
-            var updated = _transactionService.Update(id, dto);
-            if (!updated)
+            var transaction = await _transactionService.UpdateAsync(id, updateDto);
+
+            if (transaction == null)
                 return NotFound();
 
-            return NoContent();
+            return Ok(transaction);
         }
 
-        // DELETE: api/Transaction/{id}
+        // DELETE: api/transaction/5 - Deletes transaction
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var deleted = _transactionService.Delete(id);
-            if (!deleted)
+            var result = await _transactionService.DeleteAsync(id);
+
+            if (!result)
                 return NotFound();
 
             return NoContent();

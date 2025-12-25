@@ -37,5 +37,49 @@ namespace CashTrack.Application.Services
                 Name = category.Name
             };
         }
+
+        public async Task<CategoryDto> CreateAsync(CreateCategoryDto createDto)
+        {
+            var category = new Category
+            {
+                Name = createDto.Name
+            };
+
+            await _repository.CreateAsync(category);
+
+            return new CategoryDto
+            {
+                Id = category.Id,
+                Name = category.Name
+            };
+        }
+
+        public async Task<CategoryDto?> UpdateAsync(int id, CreateCategoryDto updateDto)
+        {
+            var category = await _repository.GetByIdAsync(id);
+
+            if (category == null)
+                return null;
+
+            category.Name = updateDto.Name;
+            await _repository.UpdateAsync(category);
+
+            return new CategoryDto
+            {
+                Id = category.Id,
+                Name = category.Name
+            };
+        }
+
+        public async Task<bool> DeleteAsync(int id)
+        {
+            var category = await _repository.GetByIdAsync(id);
+
+            if (category == null)
+                return false;
+
+            await _repository.DeleteAsync(category);
+            return true;
+        }
     }
 }

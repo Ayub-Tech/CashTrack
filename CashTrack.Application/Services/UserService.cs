@@ -1,25 +1,93 @@
-﻿using CashTrack.Application.Interfaces;
+﻿using CashTrack.Application.DTOs;
+using CashTrack.Application.Interfaces;
+using CashTrack.Domain.Entities;
 
 namespace CashTrack.Application.Services
 {
-    // Service responsible for user-related logic
+    // Business logic for user operations
     public class UserService : IUserService
     {
-        // Constructor (will be used later for dependencies)
-        public UserService()
+        private readonly IUserRepository _repository;
+
+        public UserService(IUserRepository repository)
         {
+            _repository = repository;
         }
 
-        // This method will later return all users
-        public void GetAll()
+        public async Task<IEnumerable<UserDto>> GetAllAsync()
         {
-            // Logic will be added later
+            var users = await _repository.GetAllAsync();
+
+            return users.Select(u => new UserDto
+            {
+                Id = u.Id,
+                Name = u.Name,
+                Email = u.Email
+            });
         }
 
-        // This method will later create a new user
-        public void Create()
+        public async Task<UserDto?> GetByIdAsync(int id)
         {
-            // Logic will be added later
+            var user = await _repository.GetByIdAsync(id);
+
+            if (user == null)
+                return null;
+
+            return new UserDto
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Email = user.Email
+            };
+        }
+
+        public async Task<UserDto> CreateAsync(CreateUserDto createDto)
+        {
+            var user = new User
+            {
+                Name = createDto.Name,
+                Email = createDto.Email
+            };
+
+            await _repository.CreateAsync(user);
+
+            return new UserDto
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Email = user.Email
+            };
+        }
+
+        public async Task<UserDto?> UpdateAsync(int id, CreateUserDto updateDto)
+        {
+            var user = await _repository.GetByIdAsync(id);
+
+            if (user == null)
+                return null;
+
+            user.Name = updateDto.Name;
+            user.Email = updateDto.Email;
+
+            await _repository.UpdateAsync(user);
+
+            return new UserDto
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Email = user.Email
+            };
+        }
+
+        public async Task<bool> DeleteAsync(int id)
+        {
+            var user = await _repository.GetByIdAsync(id);
+
+            if (user == null)
+                return false;
+
+            await _repository.DeleteAsync(user);
+            return true;
         }
     }
 }

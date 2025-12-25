@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CashTrack.Domain.Entities
 {
     public class User
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+
+        // Navigation property: One user can have many transactions
+        public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
     }
 }

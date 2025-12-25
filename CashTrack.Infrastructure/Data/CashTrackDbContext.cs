@@ -20,6 +20,9 @@ namespace CashTrack.Infrastructure.Data
         // Represents the Transactions table
         public DbSet<Transaction> Transactions { get; set; }
 
+        // Represents the Users table
+        public DbSet<User> Users { get; set; }
+
         // Configure model relationships and rules
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -48,6 +51,24 @@ namespace CashTrack.Infrastructure.Data
                 entity.HasOne(t => t.Category)
                       .WithMany(c => c.Transactions)
                       .HasForeignKey(t => t.CategoryId);
+
+                // Relationship: Transaction -> User (many-to-one)
+                entity.HasOne(t => t.User)
+                      .WithMany(u => u.Transactions)
+                      .HasForeignKey(t => t.UserId);
+            });
+
+            // User configuration
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.HasKey(u => u.Id);
+                entity.Property(u => u.Name)
+                      .IsRequired()
+                      .HasMaxLength(100);
+
+                entity.Property(u => u.Email)
+                      .IsRequired()
+                      .HasMaxLength(255);
             });
         }
     }

@@ -1,4 +1,5 @@
-﻿using CashTrack.Application.Interfaces;
+﻿using CashTrack.Application.DTOs;
+using CashTrack.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CashTrack.Api.Controllers
@@ -30,6 +31,35 @@ namespace CashTrack.Api.Controllers
                 return NotFound();
 
             return Ok(category);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create([FromBody] CreateCategoryDto createDto)
+        {
+            var category = await _categoryService.CreateAsync(createDto);
+            return CreatedAtAction(nameof(GetById), new { id = category.Id }, category);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, [FromBody] CreateCategoryDto updateDto)
+        {
+            var category = await _categoryService.UpdateAsync(id, updateDto);
+
+            if (category == null)
+                return NotFound();
+
+            return Ok(category);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var result = await _categoryService.DeleteAsync(id);
+
+            if (!result)
+                return NotFound();
+
+            return NoContent();
         }
     }
 }

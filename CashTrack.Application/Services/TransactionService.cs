@@ -1,80 +1,109 @@
 ﻿using CashTrack.Application.DTOs;
 using CashTrack.Application.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using CashTrack.Domain.Entities;
 
 namespace CashTrack.Application.Services
 {
-    // Service responsible for transaction-related business logic
+    // Business logic layer for transaction operations
     public class TransactionService : ITransactionService
     {
-        // Temporary in-memory storage (will be replaced by database later)
-        private static readonly List<TransactionDto> _transactions = new()
+        private readonly ITransactionRepository _repository;
+
+        public TransactionService(ITransactionRepository repository)
         {
-            new TransactionDto
+            _repository = repository;
+        }
+
+        // Retrieve all transactions and convert to DTOs
+        public async Task<IEnumerable<TransactionDto>> GetAllAsync()
+        {
+            var transactions = await _repository.GetAllAsync();
+
+            return transactions.Select(t => new TransactionDto
             {
-                Id = 1,
-                Amount = 100,
-                Date = DateTime.Now.AddDays(-2),
-                UserId = 1,
-                CategoryId = 1
-            },
-            new TransactionDto
+                Id = t.Id,
+                Amount = t.Amount,
+                Date = t.Date,
+                UserId = t.UserId,
+                CategoryId = t.CategoryId
+            });
+        }
+
+        // Get single transaction by ID
+        public async Task<TransactionDto?> GetByIdAsync(int id)
+        {
+            var transaction = await _repository.GetByIdAsync(id);
+
+            if (transaction == null)
+                return null;
+
+            return new TransactionDto
             {
-                Id = 2,
-                Amount = 250,
-                Date = DateTime.Now.AddDays(-1),
-                UserId = 1,
-                CategoryId = 2
-            }
-        };
-
-        // Returns all transactions
-        public List<TransactionDto> GetAll()
-        {
-            return _transactions;
+                Id = transaction.Id,
+                Amount = transaction.Amount,
+                Date = transaction.Date,
+                UserId = transaction.UserId,
+                CategoryId = transaction.CategoryId
+            };
         }
 
-        // Returns a single transaction by id
-        public TransactionDto GetById(int id)
+        // Create new transaction from DTO
+        public async Task<TransactionDto> CreateAsync(CreateTransactionDto createDto)
         {
-            return _transactions.FirstOrDefault(t => t.Id == id);
+            var transaction = new Transaction
+            {
+                Amount = createDto.Amount,
+                Date = createDto.Date,
+                UserId = createDto.UserId,
+                CategoryId = createDto.CategoryId
+            };
+
+            await _repository.CreateAsync(transaction);
+
+            return new TransactionDto
+            {
+                Id = transaction.Id,
+                Amount = transaction.Amount,
+                Date = transaction.Date,
+                UserId = transaction.UserId,
+                CategoryId = transaction.CategoryId
+            };
         }
 
-        // Creates a new transaction
-        public void Create(TransactionDto dto)
+        // Update existing transaction
+        public async Task<TransactionDto?> UpdateAsync(int id, CreateTransactionDto updateDto)
         {
-            dto.Id = _transactions.Any()
-                ? _transactions.Max(t => t.Id) + 1
-                : 1;
+            var transaction = await _repository.GetByIdAsync(id);
 
-            _transactions.Add(dto);
+            if (transaction == null)
+                return null;
+
+            transaction.Amount = updateDto.Amount;
+            transaction.Date = updateDto.Date;
+            transaction.UserId = updateDto.UserId;
+            transaction.CategoryId = updateDto.CategoryId;
+
+            await _repository.UpdateAsync(transaction);
+
+            return new TransactionDto
+            {
+                Id = transaction.Id,
+                Amount = transaction.Amount,
+                Date = transaction.Date,
+                UserId = transaction.UserId,
+                CategoryId = transaction.CategoryId
+            };
         }
 
-        // Updates an existing transaction
-        public bool Update(int id, TransactionDto dto)
+        // Delete transaction by ID
+        public async Task<bool> DeleteAsync(int id)
         {
-            var existing = _transactions.FirstOrDefault(t => t.Id == id);
-            if (existing == null)
-                return false;
+            var transaction = await _repository.GetByIdAsync(id);
 
-            existing.Amount = dto.Amount;
-            existing.Date = dto.Date;
-            existing.UserId = dto.UserId;
-            existing.CategoryId = dto.CategoryId;
-
-            return true;
-        }
-
-        // Deletes a transaction
-        public bool Delete(int id)
-        {
-            var transaction = _transactions.FirstOrDefault(t => t.Id == id);
             if (transaction == null)
                 return false;
 
-            _transactions.Remove(transaction);
+            await _repository.DeleteAsync(transaction);
             return true;
         }
     }
