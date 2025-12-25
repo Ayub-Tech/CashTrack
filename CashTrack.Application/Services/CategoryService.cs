@@ -51,7 +51,7 @@ namespace CashTrack.Application.Services
         public async Task<CategoryDto> CreateAsync(CreateCategoryDto createDto)
         {
             _logger.LogInformation("Creating new category: {CategoryName}", createDto.Name);
-
+            
             var category = new Category
             {
                 Name = createDto.Name
