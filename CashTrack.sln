@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36804.6 d17.14
+VisualStudioVersion = 17.14.36804.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
 	ProjectSection(SolutionItems) = preProject
@@ -15,6 +15,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashTrack.Application", "CashTrack.Application\CashTrack.Application.csproj", "{48833C10-3CDC-4F17-A0A4-E757C2145239}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashTrack.Infrastructure", "CashTrack.Infrastructure\CashTrack.Infrastructure.csproj", "{F035CED1-F7B1-4FDF-B86D-E141C30742BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashTrack.Tests", "CashTrack.Tests\CashTrack.Tests.csproj", "{364FAE03-FB8E-4A47-B2D1-62A96A247CE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{F035CED1-F7B1-4FDF-B86D-E141C30742BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F035CED1-F7B1-4FDF-B86D-E141C30742BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F035CED1-F7B1-4FDF-B86D-E141C30742BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{364FAE03-FB8E-4A47-B2D1-62A96A247CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364FAE03-FB8E-4A47-B2D1-62A96A247CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364FAE03-FB8E-4A47-B2D1-62A96A247CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364FAE03-FB8E-4A47-B2D1-62A96A247CE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
